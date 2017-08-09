@@ -8,22 +8,8 @@ namespace Chess.Model
 {
     class Rook : Piece
     {
-        private Coordinate[] threatVal;
-        private Coordinate[] rangeOfMotion;
-        private Coordinate initialPos;
-        private int playerNum;
-
-        public Coordinate[] ThreatVal { get; }
-        public Coordinate[] RangeOfMotion { get; }
-        public Coordinate InitialPos { get; }
-        public int PlayerNum { get; }
-
-        public Rook(Coordinate[] threat, Coordinate[] range, Coordinate startPos, int player)
+        public Rook(int playerNumber) : base(playerNumber)
         {
-            this.threatVal = threat;
-            this.rangeOfMotion = range;
-            this.initialPos = startPos;
-            this.playerNum = player;
         }
     }
 }

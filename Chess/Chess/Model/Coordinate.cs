@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chess.Model
 {
-    class Coordinate
+    public class Coordinate
     {
         public char Column;
         public int Row;

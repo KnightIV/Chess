@@ -8,7 +8,7 @@ namespace Chess.Model
 {
     public class Queen : Piece
     {
-        public Queen(int playerNumber) : base(threat, rangeOfMotion, currentPosition, playerNumber)
+        public Queen(int playerNumber) : base(playerNumber)
         {
         }
     }

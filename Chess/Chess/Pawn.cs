@@ -8,9 +8,5 @@ namespace Chess
 {
     class Pawn : Piece
     {
-        public Pawn(Coordinate[] threat, Coordinate[] rangeOfMotion, Coordinate initialPos, int playerNum)
-        {
-                
-        }
     }
 }
