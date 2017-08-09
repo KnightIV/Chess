@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chess.Model
-{
-    class Queen
-    {
+namespace Chess.Model {
+    public class Move {
 
     }
 }
