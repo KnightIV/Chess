@@ -63,13 +63,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Control\Board.cs" />
+    <Compile Include="Coordinate.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Piece.cs" />
     <Compile Include="Model\Queen.cs" />
+    <Compile Include="Model\Rook.cs" />
+    <Compile Include="Model\Space.cs" />
+    <Compile Include="Pawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
