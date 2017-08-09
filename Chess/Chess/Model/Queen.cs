@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Chess.Model
 {
-    class Queen
+    public class Queen : Piece
     {
-
+        public Queen(int playerNumber) : base(threat, rangeOfMotion, currentPosition, playerNumber)
+        {
+        }
     }
 }
