@@ -44,12 +44,9 @@ namespace Chess.Model
             set { playerNumber = value; }
         }
 
-        public Piece(Coordinate[] threat, Coordinate[] rangeOfMotion, Coordinate currentPosition, int playerNumber)
+        public Piece(int playerNumber)
         {
-            this.threat = threat;
-            this.rangeOfMotion = rangeOfMotion;
-            this.currentPosition = currentPosition;
-            this.playerNumber = playerNumber;
+			PlayerNumber = playerNumber;
         }
 
     }

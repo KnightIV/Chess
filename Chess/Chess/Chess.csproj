@@ -70,6 +70,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Coordinate.cs" />
     <Compile Include="Model\Piece.cs" />
     <Compile Include="Model\Queen.cs" />
     <Compile Include="Model\Rook.cs" />
